@@ -1,0 +1,37 @@
+[
+  {
+    "id": "home",
+    "name": "Home",
+    "path": "/"
+  },
+  {
+    "id": "about",
+    "name": "About",
+    "path": "/about"
+  },
+  {
+    "id": "experience",
+    "name": "Experience",
+    "path": "/experience"
+  },
+  {
+    "id": "skills",
+    "name": "Skills",
+    "path": "/skills"
+  },
+  {
+    "id": "projects",
+    "name": "Projects",
+    "path": "/projects"
+  },
+  {
+    "id": "education",
+    "name": "Education",
+    "path": "/education"
+  },
+  {
+    "id": "contact",
+    "name": "Contact",
+    "path": "/contact"
+  }
+] 

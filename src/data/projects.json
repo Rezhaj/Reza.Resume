@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "title": "E-commerce Platform",
+    "description": "A full-featured e-commerce platform with product management, shopping cart, payment processing, and order tracking.",
+    "image": "ecommerce.jpg",
+    "technologies": ["React", "Node.js", "MongoDB", "Stripe API", "AWS S3"],
+    "github": "https://github.com/johndoe/ecommerce-platform",
+    "demo": "https://ecommerce-demo.johndoe.dev",
+    "featured": true
+  },
+  {
+    "id": 2,
+    "title": "Task Management App",
+    "description": "A collaborative task management application with real-time updates, task assignment, and progress tracking.",
+    "image": "taskmanager.jpg",
+    "technologies": ["Angular", "Firebase", "Material UI", "RxJS"],
+    "github": "https://github.com/johndoe/task-manager",
+    "demo": "https://taskmanager.johndoe.dev",
+    "featured": true
+  },
+  {
+    "id": 3,
+    "title": "Weather Dashboard",
+    "description": "A weather dashboard that displays current conditions and forecasts for multiple locations with interactive maps.",
+    "image": "weather.jpg",
+    "technologies": ["Vue.js", "OpenWeather API", "Mapbox", "Chart.js"],
+    "github": "https://github.com/johndoe/weather-dashboard",
+    "demo": "https://weather.johndoe.dev",
+    "featured": false
+  },
+  {
+    "id": 4,
+    "title": "Fitness Tracker",
+    "description": "A mobile-responsive fitness tracking application that allows users to log workouts and track progress over time.",
+    "image": "fitness.jpg",
+    "technologies": ["React Native", "Express.js", "MongoDB", "D3.js"],
+    "github": "https://github.com/johndoe/fitness-tracker",
+    "demo": "https://fitness.johndoe.dev",
+    "featured": false
+  },
+  {
+    "id": 5,
+    "title": "Recipe Finder",
+    "description": "A web application that helps users find recipes based on ingredients they have available.",
+    "image": "recipe.jpg",
+    "technologies": ["JavaScript", "Spoonacular API", "Bootstrap", "LocalStorage"],
+    "github": "https://github.com/johndoe/recipe-finder",
+    "demo": "https://recipes.johndoe.dev",
+    "featured": true
+  }
+] 

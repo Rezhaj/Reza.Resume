@@ -1,0 +1,52 @@
+{
+  "categories": [
+    {
+      "name": "Frontend",
+      "skills": [
+        { "name": "HTML5", "level": 95 },
+        { "name": "CSS3/SASS", "level": 90 },
+        { "name": "JavaScript", "level": 95 },
+        { "name": "TypeScript", "level": 85 },
+        { "name": "React", "level": 90 },
+        { "name": "Angular", "level": 80 },
+        { "name": "Vue.js", "level": 75 },
+        { "name": "Redux", "level": 85 },
+        { "name": "Webpack", "level": 80 }
+      ]
+    },
+    {
+      "name": "Backend",
+      "skills": [
+        { "name": "Node.js", "level": 90 },
+        { "name": "Express.js", "level": 85 },
+        { "name": "Python", "level": 80 },
+        { "name": "Django", "level": 75 },
+        { "name": "Ruby on Rails", "level": 70 },
+        { "name": "GraphQL", "level": 80 },
+        { "name": "RESTful APIs", "level": 90 }
+      ]
+    },
+    {
+      "name": "Database",
+      "skills": [
+        { "name": "MongoDB", "level": 85 },
+        { "name": "PostgreSQL", "level": 80 },
+        { "name": "MySQL", "level": 85 },
+        { "name": "Redis", "level": 75 },
+        { "name": "Firebase", "level": 80 }
+      ]
+    },
+    {
+      "name": "DevOps & Tools",
+      "skills": [
+        { "name": "Git", "level": 90 },
+        { "name": "Docker", "level": 80 },
+        { "name": "Kubernetes", "level": 70 },
+        { "name": "AWS", "level": 85 },
+        { "name": "CI/CD", "level": 80 },
+        { "name": "Jest", "level": 85 },
+        { "name": "Cypress", "level": 75 }
+      ]
+    }
+  ]
+} 

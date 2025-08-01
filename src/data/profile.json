@@ -1,0 +1,13 @@
+{
+  "name": "John Doe",
+  "title": "Full Stack Developer",
+  "summary": "Passionate and detail-oriented Full Stack Developer with expertise in building responsive web applications. Experienced in modern JavaScript frameworks, backend technologies, and cloud platforms.",
+  "location": "San Francisco, CA",
+  "email": "john.doe@example.com",
+  "phone": "+1 (123) 456-7890",
+  "website": "https://johndoe.dev",
+  "github": "https://github.com/johndoe",
+  "linkedin": "https://linkedin.com/in/johndoe",
+  "twitter": "https://twitter.com/johndoe",
+  "profileImage": "profile.jpg"
+} 
