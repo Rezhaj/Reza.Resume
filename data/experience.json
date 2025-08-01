@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "company": "Isfahan University of Technology",
+    "position": "Research Assistant",
+    "location": "Isfahan, Iran",
+    "startDate": "2022-09",
+    "endDate": "Present",
+    "description": "Conducting research on advanced materials characterization and processing techniques in the Advanced Materials Laboratory.",
+    "achievements": [
+      "Developed a novel heat treatment protocol for high-strength steels, improving tensile strength by 15%",
+      "Optimized metallographic sample preparation methods, reducing analysis time by 30%",
+      "Assisted in setting up a new X-ray diffraction facility for the department"
+    ],
+    "technologies": ["X-ray Diffraction", "Scanning Electron Microscopy", "Mechanical Testing", "Heat Treatment", "MATLAB"]
+  },
+  {
+    "id": 2,
+    "company": "Isfahan Steel Company",
+    "position": "Metallurgical Intern",
+    "location": "Isfahan, Iran",
+    "startDate": "2022-06",
+    "endDate": "2022-08",
+    "description": "Worked in the quality control department analyzing steel samples and monitoring production processes.",
+    "achievements": [
+      "Conducted microstructural analysis of over 200 steel samples using optical microscopy",
+      "Developed a spreadsheet tool for tracking quality control parameters, improving data organization",
+      "Participated in failure analysis investigations of customer-returned products"
+    ],
+    "technologies": ["Optical Microscopy", "Hardness Testing", "Tensile Testing", "Metallography", "Quality Control"]
+  },
+  {
+    "id": 3,
+    "company": "Iran National Materials Research Center",
+    "position": "Undergraduate Research Assistant",
+    "location": "Tehran, Iran",
+    "startDate": "2021-06",
+    "endDate": "2022-02",
+    "description": "Assisted senior researchers with materials characterization and testing for various industrial projects.",
+    "achievements": [
+      "Contributed to a research project on corrosion-resistant coatings for industrial applications",
+      "Prepared and analyzed over 50 metallographic samples for microstructural evaluation",
+      "Co-authored a technical report on heat treatment optimization for tool steels"
+    ],
+    "technologies": ["Corrosion Testing", "Sample Preparation", "Microscopy", "Data Analysis", "Technical Writing"]
+  },
+  {
+    "id": 4,
+    "company": "Mobarakeh Steel Complex",
+    "position": "Summer Intern",
+    "location": "Isfahan, Iran",
+    "startDate": "2020-07",
+    "endDate": "2020-09",
+    "description": "Participated in a comprehensive training program covering various aspects of steel production and quality control.",
+    "achievements": [
+      "Shadowed engineers in the hot rolling mill and quality control laboratory",
+      "Completed a project on analyzing defect patterns in cold-rolled steel sheets",
+      "Gained practical experience with industrial-scale materials processing equipment"
+    ],
+    "technologies": ["Steel Processing", "Non-Destructive Testing", "Quality Inspection", "Process Control", "Materials Handling"]
+  }
+] 
