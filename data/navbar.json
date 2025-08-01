@@ -10,14 +10,19 @@
     "path": "/about"
   },
   {
+    "id": "education",
+    "name": "Education",
+    "path": "/education"
+  },
+  {
     "id": "experience",
-    "name": "Experience",
+    "name": "Experience & Skills",
     "path": "/experience"
   },
   {
-    "id": "skills",
-    "name": "Skills",
-    "path": "/skills"
+    "id": "research",
+    "name": "Research & Publications",
+    "path": "/research"
   },
   {
     "id": "projects",
@@ -25,9 +30,9 @@
     "path": "/projects"
   },
   {
-    "id": "education",
-    "name": "Education",
-    "path": "/education"
+    "id": "hobbies",
+    "name": "Hobbies",
+    "path": "/hobbies"
   },
   {
     "id": "contact",
