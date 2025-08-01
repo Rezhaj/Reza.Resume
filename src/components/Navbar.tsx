@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useState, useEffect, useCallback, useRef } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { useData } from '../context/DataContext';
@@ -9,6 +9,8 @@ const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const location = useLocation();
+  const menuRef = useRef<HTMLDivElement>(null);
+  const buttonRef = useRef<HTMLButtonElement>(null);
 
   // Memoize the scroll handler for better performance
   const handleScroll = useCallback(() => {
@@ -30,15 +32,32 @@ const Navbar: React.FC = () => {
     setIsOpen(false);
   }, [location]);
 
-  // Prevent body scroll when mobile menu is open
+  // Handle click outside to close menu
   useEffect(() => {
-    if (isOpen) {
-      document.body.style.overflow = 'hidden';
-    } else {
-      document.body.style.overflow = 'unset';
-    }
+    const handleClickOutside = (event: MouseEvent) => {
+      if (
+        isOpen && 
+        menuRef.current && 
+        buttonRef.current &&
+        !menuRef.current.contains(event.target as Node) &&
+        !buttonRef.current.contains(event.target as Node)
+      ) {
+        setIsOpen(false);
+      }
+    };
+
+    document.addEventListener('mousedown', handleClickOutside);
     return () => {
-      document.body.style.overflow = 'unset';
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, [isOpen]);
+
+  // Fix for mobile menu scroll issue - only prevent scrolling on menu itself
+  useEffect(() => {
+    // Don't prevent scrolling on the whole body
+    // Instead, handle overflow in the menu itself
+    return () => {
+      document.body.style.overflow = '';
     };
   }, [isOpen]);
 
@@ -109,6 +128,7 @@ const Navbar: React.FC = () => {
 
           {/* Mobile Menu Button */}
           <button
+            ref={buttonRef}
             className="md:hidden text-gray-700 focus:outline-none"
             onClick={() => setIsOpen(!isOpen)}
             aria-label={isOpen ? "Close menu" : "Open menu"}
@@ -124,6 +144,7 @@ const Navbar: React.FC = () => {
         {/* Mobile Navigation */}
         {isOpen && (
           <motion.div
+            ref={menuRef}
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: 'auto' }}
             exit={{ opacity: 0, height: 0 }}

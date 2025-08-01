@@ -9,6 +9,7 @@ A responsive resume website built with React, TypeScript, and Tailwind CSS for m
 - **Modern UI/UX**: Clean, professional design with smooth animations
 - **Student-Focused Sections**: Specialized sections for education, skills, projects, research experience, and more
 - **GitHub Pages Ready**: Configured for easy deployment to GitHub Pages
+- **Resume PDF**: Includes a downloadable PDF resume
 
 ## Tech Stack
 
@@ -23,7 +24,8 @@ A responsive resume website built with React, TypeScript, and Tailwind CSS for m
 
 ```
 ├── public/               # Public assets
-│   └── images/           # Image assets
+│   ├── images/           # Image assets
+│   └── documents/        # PDF documents including resume
 ├── src/                  # Source code
 │   ├── components/       # Reusable components
 │   ├── data/             # JSON data files
@@ -55,15 +57,14 @@ All content is loaded from JSON files in the `src/data` directory:
 
 ### Prerequisites
 
-- Node.js (v14 or later)
 - npm or yarn
 
 ### Installation
 
 1. Clone the repository
    ```
-   git clone https://github.com/yourusername/resume-site.git
-   cd resume-site
+   git clone https://github.com/Rezhaj/Reza.Resume.git
+   cd Reza.Resume
    ```
 
 2. Install dependencies
@@ -82,20 +83,26 @@ All content is loaded from JSON files in the `src/data` directory:
 
 1. Update the JSON files in the `src/data` directory with your information
 2. Replace images in the `public/images` directory
-3. Customize colors in `tailwind.config.js` if desired
-4. Update the `homepage` field in `package.json` with your GitHub Pages URL
+3. Replace the resume PDF in the `public/documents` directory
+4. Customize colors in `tailwind.config.js` if desired
 
 ## Deployment
 
-1. Update the `homepage` field in `package.json` to match your GitHub Pages URL:
+1. The `homepage` field in `package.json` is already set to match the GitHub Pages URL:
    ```json
-   "homepage": "https://yourusername.github.io/resume-site"
+   "homepage": "https://rezhaj.github.io/Reza.Resume"
    ```
 
 2. Deploy to GitHub Pages:
    ```
    npm run deploy
    ```
+
+## Single Page Application (SPA) Routing
+
+This project uses HashRouter for routing to ensure proper functionality on GitHub Pages. This approach allows the SPA to handle client-side routing without requiring server configuration.
+
+If deploying to a custom domain or a server with proper URL rewriting capabilities, you can switch to BrowserRouter in `src/App.tsx` for cleaner URLs.
 
 ## License
 

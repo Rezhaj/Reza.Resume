@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
  * Utility for fetching JSON data from GitHub repository
  */
 
-const GITHUB_REPO_URL = '';
+const GITHUB_REPO_URL = '/data';
 
 /**
  * Fetches JSON data from GitHub repository

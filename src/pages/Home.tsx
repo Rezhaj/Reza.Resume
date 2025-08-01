@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import SectionTitle from '../components/SectionTitle';
 import { useData } from '../context/DataContext';
 import { renderSocialIcon } from '../utils/SocialIcons';
+import { ArrowDownTrayIcon } from '@heroicons/react/24/outline';
 
 
 const Home: React.FC = () => {
@@ -44,6 +45,15 @@ const Home: React.FC = () => {
                 <Link to="/projects" className="btn btn-outline">
                   View Projects
                 </Link>
+                <a 
+                  href={`${process.env.PUBLIC_URL}/documents/resume.pdf`} 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="btn btn-outline flex items-center gap-2"
+                >
+                  <ArrowDownTrayIcon className="h-5 w-5" />
+                  Resume PDF
+                </a>
               </div>
 
               {profile.socials && profile.socials.length > 0 && (

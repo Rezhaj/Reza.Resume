@@ -2,7 +2,7 @@
   "name": "rezhaj-resume",
   "version": "0.1.0",
   "private": true,
-  "homepage": "",
+  "homepage": "https://rezhaj.github.io/Reza.Resume",
   "dependencies": {
     "@heroicons/react": "^2.1.1",
     "@testing-library/dom": "^10.4.1",
