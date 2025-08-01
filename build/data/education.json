@@ -1,0 +1,61 @@
+[
+  {
+    "id": 1,
+    "institution": "Amirkabir University of Technology",
+    "degree": "M.Sc. in Materials and Metallurgical Engineering",
+    "field": "Advanced Materials and Manufacturing Processes",
+    "location": "Tehran, Iran",
+    "startDate": "2022-09",
+    "endDate": "Present",
+    "gpa": "3.85/4.0",
+    "description": "Conducting research on advanced materials characterization and processing techniques for industrial applications.",
+    "thesis": {
+      "title": "Effect of Processing Parameters on Microstructure and Mechanical Properties of Advanced High-Strength Steels",
+      "advisor": "Dr. Ahmad Rezaeian",
+      "abstract": "This thesis investigates the relationship between processing parameters, microstructure evolution, and mechanical properties in advanced high-strength steels for automotive applications."
+    },
+    "achievements": [
+      "Published 2 papers in national materials science conferences",
+      "Received department's Outstanding Graduate Student Award (2023)",
+      "Granted research funding from National Materials Research Institute"
+    ]
+  },
+  {
+    "id": 2,
+    "institution": "Amirkabir University of Technology",
+    "degree": "B.Sc. in Materials Engineering",
+    "field": "Metallurgical Engineering",
+    "location": "Tehran, Iran",
+    "startDate": "2018-09",
+    "endDate": "2022-06",
+    "gpa": "3.78/4.0",
+    "description": "Comprehensive education in materials science, metallurgy, and manufacturing processes.",
+    "thesis": {
+      "title": "Investigation of Heat Treatment Effects on Mechanical Properties of Medium-Carbon Steels",
+      "advisor": "Dr. Morteza Hadi",
+      "abstract": "This thesis examines the influence of various heat treatment cycles on microstructure development and mechanical properties of medium-carbon steels for industrial applications."
+    },
+    "achievements": [
+      "Teaching Assistant for Materials Characterization Laboratory",
+      "Recipient of the Department Merit Scholarship",
+      "Member of the Materials Engineering Student Association"
+    ]
+  },
+  {
+    "id": 3,
+    "institution": "Shahid Beheshti High School",
+    "degree": "High School Diploma",
+    "field": "Mathematics and Physics",
+    "location": "Tehran, Iran",
+    "startDate": "2014-09",
+    "endDate": "2018-06",
+    "gpa": "19.2/20.0",
+    "description": "Strong foundation in mathematics, physics, and chemistry with focus on engineering applications.",
+    "achievements": [
+      "Graduated with Honors",
+      "Ranked in top 5% of National University Entrance Exam",
+      "President of the Science Club",
+      "Winner of Regional Mathematics Competition"
+    ]
+  }
+] 
