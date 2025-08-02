@@ -36,12 +36,9 @@ const Hobbies: React.FC = () => {
                 <div className="relative">
                   <div className="absolute inset-0 bg-primary-600 rounded-lg transform translate-x-3 translate-y-3"></div>
                   <img
-                    src={`/images/${hobby.image}`}
+                    src={`${process.env.PUBLIC_URL}/images/${hobby.image}`}
                     alt={hobby.name}
                     className="relative z-10 rounded-lg w-full h-auto object-cover shadow-xl"
-                    onError={(e) => {
-                      (e.target as HTMLImageElement).src = `/images/default-hobby.jpg`;
-                    }}
                   />
                 </div>
               </div>

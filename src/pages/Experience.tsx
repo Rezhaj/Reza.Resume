@@ -105,13 +105,6 @@ const Experience: React.FC = () => {
                     <div key={skillIndex} className="bg-white p-4 rounded-lg shadow-md">
                       <div className="flex justify-between items-center mb-2">
                         <h3 className="font-medium text-gray-900">{skill.name}</h3>
-                        <span className="text-sm text-gray-600">{skill.level}%</span>
-                      </div>
-                      <div className="w-full bg-gray-200 rounded-full h-2.5">
-                        <div 
-                          className="bg-primary-600 h-2.5 rounded-full" 
-                          style={{ width: `${skill.level}%` }}
-                        ></div>
                       </div>
                     </div>
                   ))}

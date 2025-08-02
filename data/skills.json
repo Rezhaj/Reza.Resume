@@ -3,50 +3,50 @@
     {
       "name": "Materials Characterization",
       "skills": [
-        { "name": "Optical Microscopy", "level": 95 },
-        { "name": "Scanning Electron Microscopy (SEM)", "level": 85 },
-        { "name": "X-ray Diffraction (XRD)", "level": 80 },
-        { "name": "Energy Dispersive Spectroscopy (EDS)", "level": 75 },
-        { "name": "Metallography", "level": 90 },
-        { "name": "Hardness Testing", "level": 95 },
-        { "name": "Tensile Testing", "level": 85 },
-        { "name": "Corrosion Testing", "level": 80 }
+        { "name": "Optical Microscopy"},
+        { "name": "Scanning Electron Microscopy (SEM)"},
+        { "name": "X-ray Diffraction (XRD)"},
+        { "name": "Energy Dispersive Spectroscopy (EDS)"},
+        { "name": "Metallography"},
+        { "name": "Hardness Testing"},
+        { "name": "Tensile Testing"},
+        { "name": "Corrosion Testing" }
       ]
     },
     {
       "name": "Materials Processing",
       "skills": [
-        { "name": "Heat Treatment", "level": 90 },
-        { "name": "Casting", "level": 75 },
-        { "name": "Forging", "level": 70 },
-        { "name": "Rolling", "level": 85 },
-        { "name": "Welding", "level": 80 },
-        { "name": "Powder Metallurgy", "level": 75 },
-        { "name": "Surface Engineering", "level": 80 }
+        { "name": "Heat Treatment"},
+        { "name": "Casting"},
+        { "name": "Forging"},
+        { "name": "Rolling"},
+        { "name": "Welding"},
+        { "name": "Powder Metallurgy"},
+        { "name": "Surface Engineering"}
       ]
     },
     {
       "name": "Software & Simulation",
       "skills": [
-        { "name": "MATLAB", "level": 90 },
-        { "name": "Python", "level": 75 },
-        { "name": "CAD/CAM Software", "level": 80 },
-        { "name": "Thermo-Calc", "level": 70 },
-        { "name": "ANSYS", "level": 65 },
-        { "name": "JMatPro", "level": 75 },
-        { "name": "MS Office", "level": 95 }
+        { "name": "MATLAB"},
+        { "name": "Python"},
+        { "name": "CAD/CAM Software"},
+        { "name": "Thermo-Calc"},
+        { "name": "ANSYS"},
+        { "name": "JMatPro"},
+        { "name": "MS Office" }
       ]
     },
     {
       "name": "Laboratory & Research",
       "skills": [
-        { "name": "Experimental Design", "level": 85 },
-        { "name": "Data Analysis", "level": 90 },
-        { "name": "Technical Writing", "level": 85 },
-        { "name": "Laboratory Safety", "level": 95 },
-        { "name": "Quality Control", "level": 85 },
-        { "name": "Failure Analysis", "level": 80 },
-        { "name": "Statistical Methods", "level": 75 }
+        { "name": "Experimental Design"},
+        { "name": "Data Analysis"},
+        { "name": "Technical Writing"},
+        { "name": "Laboratory Safety"},
+        { "name": "Quality Control"},
+        { "name": "Failure Analysis"},
+        { "name": "Statistical Methods"}
       ]
     }
   ]

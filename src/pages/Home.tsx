@@ -46,7 +46,7 @@ const Home: React.FC = () => {
                   View Projects
                 </Link>
                 <a 
-                  href={`${process.env.PUBLIC_URL}/documents/resume.pdf`} 
+                  href={`${process.env.PUBLIC_URL}/documents/resume.pdf`}
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="btn btn-outline flex items-center gap-2"
