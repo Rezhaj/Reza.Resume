@@ -1,22 +1,20 @@
 {
-  "email": "john.doe@example.com",
-  "phone": "+1 (123) 456-7890",
+  "email": "reza.hajiha1996@gmail.com",
+  "phone": "+98 9193834297",
   "address": {
-    "street": "123 University Avenue",
-    "city": "Stanford",
-    "state": "CA",
-    "zip": "94305",
-    "country": "USA"
+    "street": "No. 32 Eshraghi Avenue, Damavand Street",
+    "city": "Tehran",
+    "zip": "1733615773",
+    "country": "Iran"
   },
   "office": "Gates Building, Room 456",
   "officeHours": "Monday and Wednesday, 2:00 PM - 4:00 PM",
   "socialMedia": {
     "github": "https://github.com/johndoe",
-    "linkedin": "https://linkedin.com/in/johndoe",
-    "twitter": "https://twitter.com/johndoe",
-    "googleScholar": "https://scholar.google.com/citations?user=johndoe",
-    "researchGate": "https://www.researchgate.net/profile/John_Doe",
-    "orcid": "https://orcid.org/0000-0001-2345-6789"
+    "linkedin": "https://www.linkedin.com/in/mohammadreza-hajiha-03b00b188/",
+    "googleScholar": "https://scholar.google.com/citations?hl=en&user=sguwijAAAAAJ&view_op=list_works&gmla=AH8HC4yckFBaBAXrkMutjbrFvY2AfZbAl7KzNck64oGa6PcKUtLKUnuuWKOs5qYrvjA_bLnnuowz51-fLJdUatLM",
+    "researchGate": "https://www.researchgate.net/profile/Mohmaamdreza-Hajiha?ev=hdr_xprf",
+    
   },
   "preferredContactMethod": "email",
   "availableFor": [
