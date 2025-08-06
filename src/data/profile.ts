@@ -36,7 +36,7 @@ export const profile: Profile = {
   "linkedin": "https://www.linkedin.com/in/reza-hajiha-03b00b188/",
   "googleScholar": "https://scholar.google.com/citations?user=sguwijAAAAAJ&hl=en",
   "researchGate": "https://www.researchgate.net/profile/Mohmaamdreza-Hajiha",
-  "profileImage": "profile.jpg",
+  "profileImage": "profile.webp",
   "department": "Department of Materials and Metallurgical Engineering",
   "institution": "Amirkabir University of Technology",
   "researchInterests": [
@@ -82,7 +82,7 @@ export const profile: Profile = {
       "url": "https://www.linkedin.com/in/reza-hajiha-03b00b188/",
     },
     {
-      "name": "Google Scholar",
+      "name": "GoogleScholar",
       "url": "https://scholar.google.com/citations?user=sguwijAAAAAJ&hl=en",
     },
     {

@@ -15,6 +15,7 @@ const Contact: React.FC = () => {
     );
   }
 
+  console.log(profile.socials);
   return (
     <div className="pt-24 pb-16">
       <div className="container-custom">
@@ -76,6 +77,7 @@ const Contact: React.FC = () => {
                 <div>
                   <h3 className="text-lg font-semibold mb-2">Connect</h3>
                   <div className="flex space-x-4">                
+                    
                     {profile.socials && profile.socials.map((social, index) => (
                       <a 
                         key={index} 
@@ -85,6 +87,7 @@ const Contact: React.FC = () => {
                         className="text-gray-700 hover:text-primary-600"
                         aria-label={social.name}
                       >
+                        
                         {renderSocialIcon(social.name)}
                       </a>
                     ))}

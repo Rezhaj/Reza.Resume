@@ -32,7 +32,7 @@ const Hobbies: React.FC = () => {
               transition={{ duration: 0.5, delay: index * 0.1 }}
             >
               {/* Image - alternating left and right */}
-              <div className={`md:col-span-1 ${index % 2 === 0 ? 'md:order-1' : 'md:order-2'}`}>
+              {/* <div className={`md:col-span-1 ${index % 2 === 0 ? 'md:order-1' : 'md:order-2'}`}>
                 <div className="relative">
                   <div className="absolute inset-0 bg-primary-600 rounded-lg transform translate-x-3 translate-y-3"></div>
                   <img
@@ -41,7 +41,7 @@ const Hobbies: React.FC = () => {
                     className="relative z-10 rounded-lg w-full h-auto object-cover shadow-xl"
                   />
                 </div>
-              </div>
+              </div> */}
 
               {/* Content */}
               <div className={`md:col-span-2 ${index % 2 === 0 ? 'md:order-2' : 'md:order-1'}`}>
