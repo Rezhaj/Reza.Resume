@@ -1,4 +1,10 @@
-[
+export interface NavItem {
+  id: string;
+  name: string;
+  path: string;
+}
+
+export const navbar: NavItem[] = [
   {
     "id": "home",
     "name": "Home",
@@ -21,7 +27,7 @@
   },
   {
     "id": "research",
-    "name": "Research & Publications",
+    "name": "Publications",
     "path": "/research"
   },
   {
@@ -39,4 +45,4 @@
     "name": "Contact",
     "path": "/contact"
   }
-] 
+]; 

@@ -1,61 +1,62 @@
-{
+export interface Profile {
+  name: string;
+  title: string;
+  summary: string;
+  location: string;
+  email: string;
+  phone: string;
+  linkedin: string;
+  googleScholar: string;
+  researchGate: string;
+  profileImage: string;
+  department: string;
+  institution: string;
+  researchInterests: string[];
+  biography: string;
+  hobbies: string[];
+  languages: {
+    name: string;
+    proficiency: string;
+  }[];
+  achievements: string[];
+  skills: string[];
+  socials: {
+    name: string;
+    url: string;
+  }[];
+}
+
+export const profile: Profile = {
   "name": "M.Reza Hajiha",
   "title": "Master's Student in Materials and Metallurgical Engineering",
   "summary": "Master's student in Materials and Metallurgical Engineering specializing in advanced materials and manufacturing processes. My research focuses on developing novel materials for industrial applications and exploring the relationship between processing, structure, and properties of engineering materials.",
-  "location": "Amirkabir University of Technology, Tehran, Iran",
-  "email": "m.r.hajiha@iut.ac.ir",
-  "phone": "+98 912 123 4567",
-  "website": "https://github.com/Rezhaj",
-  "github": "https://github.com/Rezhaj",
-  "linkedin": "https://linkedin.com/in/mrhajiha",
-  "twitter": "https://twitter.com/mrhajiha",
-  "googleScholar": "https://scholar.google.com/citations?user=mrhajiha",
-  "researchGate": "https://www.researchgate.net/profile/MReza_Hajiha",
-  "orcid": "https://orcid.org/0000-0001-2345-6789",
+  "location": "Tehran, Iran",
+  "email": "reza.hajiha1996@gmail.com",
+  "phone": "+989193834297",
+  "linkedin": "https://www.linkedin.com/in/reza-hajiha-03b00b188/",
+  "googleScholar": "https://scholar.google.com/citations?user=sguwijAAAAAJ&hl=en",
+  "researchGate": "https://www.researchgate.net/profile/Mohmaamdreza-Hajiha",
   "profileImage": "profile.jpg",
   "department": "Department of Materials and Metallurgical Engineering",
   "institution": "Amirkabir University of Technology",
   "researchInterests": [
-    "Advanced Materials",
+    "Additive Manufacturing (3D Printing)",
+    "Alloy Chemistry and Phase Transformations",
+    "Welding and Joining Technologies",
     "Materials Characterization",
-    "Metallurgical Processing",
-    "Mechanical Properties",
-    "Additive Manufacturing"
-  ],
-  "academicPositions": [
-    {
-      "title": "Research Assistant",
-      "department": "Materials and Metallurgical Engineering",
-      "institution": "Amirkabir University of Technology",
-      "startDate": "2022-09",
-      "endDate": "Present"
-    },
-    {
-      "title": "Laboratory Assistant",
-      "department": "Materials and Metallurgical Engineering",
-      "institution": "Amirkabir University of Technology",
-      "startDate": "2023-01",
-      "endDate": "2023-06"
-    },
-    {
-      "title": "Metallurgical Intern",
-      "department": "Quality Control",
-      "institution": "Isfahan Steel Company",
-      "startDate": "2022-06",
-      "endDate": "2022-08"
-    }
+    "Recyclable and Sustainable Materials",
+    "AI and Machine Learning in Materials Science"
   ],
   "biography": "M.Reza Hajiha is a Master's student in Materials and Metallurgical Engineering at Amirkabir University of Technology, specializing in advanced materials and manufacturing processes. Reza graduated with honors from Amirkabir University of Technology with a Bachelor's degree in Materials Engineering. During undergraduate studies, Reza participated in several research projects focused on metallurgical processing and materials characterization, which sparked a passion for developing novel materials for industrial applications. Currently working as a Research Assistant in the Advanced Materials Laboratory, Reza is investigating the relationship between processing parameters, microstructure, and mechanical properties of engineering materials. Reza has presented work at student research conferences and is an active member of the Materials Engineering Student Association. Outside of academics, Reza enjoys hiking, photography, and playing traditional Persian music.",
   "hobbies": [
-    "Hiking",
+    "Biking",
     "Photography",
-    "Playing Santoor (Persian instrument)",
-    "Reading technical books",
-    "Cooking traditional Persian food"
   ],
   "languages": [
     {"name": "Persian", "proficiency": "Native"},
-    {"name": "English", "proficiency": "Advanced"}
+    {"name": "English", "proficiency": "C; IELTS Academic 7.5/9"},
+    {"name": "Arabic", "proficiency": "Basic"},
+    {"name": "German", "proficiency": "Basic"}
   ],
   "achievements": [
     "Dean's List, Amirkabir University of Technology (2022-2023)",
@@ -78,23 +79,15 @@
   "socials": [
     {
       "name": "LinkedIn",
-      "url": "https://linkedin.com/in/mrhajiha",
-      "icon": "fa-brands fa-linkedin"
+      "url": "https://www.linkedin.com/in/reza-hajiha-03b00b188/",
     },
     {
       "name": "Google Scholar",
-      "url": "https://scholar.google.com/citations?user=mrhajiha",
-      "icon": "fa-brands fa-google-scholar"
-    },
-    {
-      "name": "Twitter",
-      "url": "https://twitter.com/mrhajiha",
-      "icon": "fa-brands fa-twitter"
+      "url": "https://scholar.google.com/citations?user=sguwijAAAAAJ&hl=en",
     },
     {
       "name": "ResearchGate",
-      "url": "https://www.researchgate.net/profile/MReza_Hajiha",
-      "icon": "fa-brands fa-researchgate"
+      "url": "https://www.researchgate.net/profile/Mohmaamdreza-Hajiha",
     }
   ]
-} 
+}; 

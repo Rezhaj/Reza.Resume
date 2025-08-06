@@ -61,12 +61,6 @@ const About: React.FC = () => {
                   <span className="font-semibold w-24">Location:</span>
                   <span>{profile.location}</span>
                 </li>
-                <li className="flex items-start">
-                  <span className="font-semibold w-24">Website:</span>
-                  <a href={profile.website} target="_blank" rel="noopener noreferrer" className="text-primary-600 hover:text-primary-800">
-                    {profile.website.replace(/^https?:\/\//, '')}
-                  </a>
-                </li>
               </ul>
 
               <h3 className="text-xl font-bold mt-6 mb-4">Connect</h3>
@@ -80,7 +74,7 @@ const About: React.FC = () => {
                     className="text-gray-700 hover:text-primary-600"
                     aria-label={social.name}
                   >
-                    {renderSocialIcon(social.icon)}
+                    {renderSocialIcon(social.name)}
                   </a>
                 ))}
               </div>
@@ -110,23 +104,6 @@ const About: React.FC = () => {
             <div className="prose prose-lg max-w-none">
               <p className="mb-4">{profile.biography}</p>
             </div>
-
-            <h2 className="text-2xl md:text-3xl font-bold mt-12 mb-6">Academic Positions</h2>
-            <div className="space-y-6">
-              {profile.academicPositions && profile.academicPositions.map((position, index) => (
-                <div
-                  key={index}
-                  className="bg-white p-6 rounded-lg shadow-md border-l-4 border-primary-600"
-                >
-                  <h3 className="text-xl font-bold">{position.title}</h3>
-                  <p className="text-gray-700">{position.department}, {position.institution}</p>
-                  <p className="text-gray-500 mt-2">
-                    {position.startDate} - {position.endDate}
-                  </p>
-                </div>
-              ))}
-            </div>
-
             <h2 className="text-2xl md:text-3xl font-bold mt-12 mb-6">Research Interests</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {profile.researchInterests && profile.researchInterests.map((interest, index) => (

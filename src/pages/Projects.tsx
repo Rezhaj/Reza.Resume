@@ -39,14 +39,6 @@ const Projects: React.FC = () => {
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5, delay: index * 0.1 }}
                 >
-                  <div className="relative h-64 overflow-hidden">
-                    <img
-                      src={`/images/${project.image}`}
-                      alt={project.title}
-                      className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
-                    
-                    />
-                  </div>
                   <div className="p-6">
                     <h3 className="text-xl font-bold mb-2">{project.title}</h3>
                     <p className="text-gray-700 mb-4">{project.description}</p>
@@ -81,13 +73,6 @@ const Projects: React.FC = () => {
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.4, delay: index * 0.05 }}
                 >
-                  <div className="relative h-48 overflow-hidden">
-                    <img
-                      src={`/images/${project.image}`}
-                      alt={project.title}
-                      className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
-                    />
-                  </div>
                   <div className="p-5">
                     <h3 className="text-lg font-bold mb-2">{project.title}</h3>
                     <p className="text-gray-700 mb-4 text-sm">{project.description}</p>
@@ -101,31 +86,7 @@ const Projects: React.FC = () => {
                           {tech}
                         </span>
                       ))}
-                    </div>
-                    
-                    <div className="flex space-x-4">
-                      {project.github && (
-                        <a 
-                          href={project.github} 
-                          target="_blank" 
-                          rel="noopener noreferrer"
-                          className="text-primary-600 hover:text-primary-800 text-sm font-medium"
-                        >
-                          GitHub
-                        </a>
-                      )}
-                      
-                      {project.demo && (
-                        <a 
-                          href={project.demo} 
-                          target="_blank" 
-                          rel="noopener noreferrer"
-                          className="text-primary-600 hover:text-primary-800 text-sm font-medium"
-                        >
-                          View Demo
-                        </a>
-                      )}
-                    </div>
+                    </div>                    
                   </div>
                 </motion.div>
               ))}

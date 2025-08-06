@@ -64,18 +64,8 @@ const Education: React.FC = () => {
                       <h3 className="text-lg font-bold mb-2">Thesis</h3>
                       <p className="font-medium text-gray-900">{edu.thesis.title}</p>
                       <p className="text-gray-700 mt-1">Advisor: {edu.thesis.advisor}</p>
-                      <p className="text-gray-700 mt-2">{edu.thesis.abstract}</p>
                     </div>
                   )}
-                  
-                  <div>
-                    <h3 className="text-lg font-bold mb-2">Achievements & Activities</h3>
-                    <ul className="list-disc pl-5 space-y-1">
-                      {edu.achievements.map((achievement, idx) => (
-                        <li key={idx} className="text-gray-700">{achievement}</li>
-                      ))}
-                    </ul>
-                  </div>
                 </div>
               </motion.div>
             ))}

@@ -67,7 +67,7 @@ const Home: React.FC = () => {
                       className="text-gray-700 hover:text-primary-600"
                       aria-label={social.name}
                     >
-                      {renderSocialIcon(social.icon)}
+                      {renderSocialIcon(social.name)}
                     </a>
                   ))}
                 </div>

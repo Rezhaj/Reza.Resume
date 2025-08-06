@@ -92,7 +92,7 @@ const Footer: React.FC = () => {
                     className="text-gray-400 hover:text-white transition-colors"
                     aria-label={social.name}
                   >
-                    {renderSocialIcon(social.icon)}
+                    {renderSocialIcon(social.name)}
                   </a>
                 ))}
               </li>

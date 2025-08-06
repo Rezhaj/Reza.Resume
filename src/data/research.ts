@@ -1,4 +1,21 @@
-[
+export interface Research {
+  id: number;
+  title: string;
+  institution: string;
+  department: string;
+  startDate: string;
+  endDate: string;
+  description: string;
+  achievements: string[];
+  funding: {
+    source: string;
+    amount: string;
+    period: string;
+  }[];
+  collaborators: string[];
+}
+
+export const research: Research[] = [
   {
     "id": 1,
     "title": "Microstructural Evolution in Advanced High-Strength Steels",
@@ -105,4 +122,4 @@
       "Eng. Mohammad Karimi (Isfahan Steel Company)"
     ]
   }
-] 
+]; 
