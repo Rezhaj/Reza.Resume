@@ -6,7 +6,7 @@ export interface Profile {
   email: string;
   phone: string;
   linkedin: string;
-  googleScholar: string;
+  Google Scholar: string;
   researchGate: string;
   profileImage: string;
   department: string;
@@ -28,13 +28,13 @@ export interface Profile {
 
 export const profile: Profile = {
   "name": "M.Reza Hajiha",
-  "title": "Master's Student in Materials and Metallurgical Engineering",
-  "summary": "Master's student in Materials and Metallurgical Engineering specializing in advanced materials and manufacturing processes. My research focuses on developing novel materials for industrial applications and exploring the relationship between processing, structure, and properties of engineering materials.",
+  "title": "Master's graduate in Materials and Metallurgical Engineering",
+  "summary": "Master's graduate in Materials and Metallurgical Engineering, specializing in advanced materials and manufacturing processes. My research focuses on developing novel materials for industrial applications and exploring the relationship between processing, structure, and properties of engineering materials.",
   "location": "Tehran, Iran",
   "email": "reza.hajiha1996@gmail.com",
   "phone": "+989193834297",
   "linkedin": "https://www.linkedin.com/in/reza-hajiha-03b00b188/",
-  "googleScholar": "https://scholar.google.com/citations?user=sguwijAAAAAJ&hl=en",
+  "Google Scholar": "https://scholar.google.com/citations?user=sguwijAAAAAJ&hl=en",
   "researchGate": "https://www.researchgate.net/profile/Mohmaamdreza-Hajiha",
   "profileImage": "profile.webp",
   "department": "Department of Materials and Metallurgical Engineering",
@@ -47,7 +47,7 @@ export const profile: Profile = {
     "Recyclable and Sustainable Materials",
     "AI and Machine Learning in Materials Science"
   ],
-  "biography": "M.Reza Hajiha is a Master's student in Materials and Metallurgical Engineering at Amirkabir University of Technology, specializing in advanced materials and manufacturing processes. Reza graduated with honors from Amirkabir University of Technology with a Bachelor's degree in Materials Engineering. During undergraduate studies, Reza participated in several research projects focused on metallurgical processing and materials characterization, which sparked a passion for developing novel materials for industrial applications. Currently working as a Research Assistant in the Advanced Materials Laboratory, Reza is investigating the relationship between processing parameters, microstructure, and mechanical properties of engineering materials. Reza has presented work at student research conferences and is an active member of the Materials Engineering Student Association. Outside of academics, Reza enjoys hiking, photography, and playing traditional Persian music.",
+  "biography": "M.Reza Hajiha is a Master's graduate in Materials and Metallurgical Engineering at Amirkabir University of Technology, specializing in advanced materials and manufacturing processes. Reza graduated with honors from Amirkabir University of Technology with a Bachelor's degree in Materials Engineering. During undergraduate studies, Reza participated in several research projects focused on metallurgical processing and materials characterization, which sparked a passion for developing novel materials for industrial applications. Currently working as a Research Assistant in the Advanced Materials Laboratory, Reza is investigating the relationship between processing parameters, microstructure, and mechanical properties of engineering materials. Reza has presented work at student research conferences and is an active member of the Materials Engineering Student Association. Outside of academics, Reza enjoys hiking, photography, and playing traditional Persian music.",
   "hobbies": [
     "Biking",
     "Photography",
