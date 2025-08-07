@@ -6,7 +6,7 @@ export interface Profile {
   email: string;
   phone: string;
   linkedin: string;
-  Google Scholar: string;
+  GoogleScholar: string;
   researchGate: string;
   profileImage: string;
   department: string;
@@ -34,7 +34,7 @@ export const profile: Profile = {
   "email": "reza.hajiha1996@gmail.com",
   "phone": "+989193834297",
   "linkedin": "https://www.linkedin.com/in/reza-hajiha-03b00b188/",
-  "Google Scholar": "https://scholar.google.com/citations?user=sguwijAAAAAJ&hl=en",
+  "GoogleScholar": "https://scholar.google.com/citations?user=sguwijAAAAAJ&hl=en",
   "researchGate": "https://www.researchgate.net/profile/Mohmaamdreza-Hajiha",
   "profileImage": "profile.webp",
   "department": "Department of Materials and Metallurgical Engineering",
